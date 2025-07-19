@@ -333,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Getting Help
 - **Documentation**: Check our [Technical Documentation](TECHNICAL.md)
 - **Bug Reports**: [GitHub Issues](https://github.com/eracoding/f3set_mobile_app/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/eracoding/f3set_mobile_app/discussions)
+- **Discussions**: [GitHub Discussions](https://github.com/eracoding/f3set_mobile_app/discussions)
 
 ### FAQ
 
