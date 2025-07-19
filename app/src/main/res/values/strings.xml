@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F3Set Tennis Analyzer</string>
+
+    <!-- Navigation -->
+    <string name="nav_upload">Upload</string>
+    <string name="nav_processing">Processing</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_privacy">Privacy</string>
+
+    <!-- Upload Screen -->
+    <string name="upload_title">Upload Video</string>
+    <string name="upload_instruction">Tap to select video</string>
+    <string name="upload_formats">MP4, MOV, AVI • Max 500MB</string>
+    <string name="upload_button">Upload Video</string>
+    <string name="upload_success">Video uploaded successfully!</string>
+    <string name="upload_error">Failed to upload video</string>
+    <string name="uploading_progress">Uploading… %1$d%%</string>
+
+    <!-- Processing Screen -->
+    <string name="processing_title">Video Processing</string>
+    <string name="processing_empty">No videos to process</string>
+    <string name="processing_empty_desc">Upload a video to get started</string>
+    <string name="processing_status">Processing: %1$s</string>
+    <string name="processing_complete">Processing completed</string>
+    <string name="filter_all">All</string>
+    <string name="filter_processing">Processing</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_error">Error</string>
+
+    <!-- Results Screen -->
+    <string name="results_title">Analysis Results</string>
+    <string name="results_empty">No results yet</string>
+    <string name="results_empty_desc">Processed videos will appear here</string>
+    <string name="export_all">Export All</string>
+    <string name="export_format">Export Format</string>
+    <string name="export_success">Export completed: %1$s</string>
+    <string name="sort_by">Sort By</string>
+    <string name="search_hint">Search results…</string>
+
+    <!-- Privacy & Consent -->
+    <string name="privacy_title">Privacy &amp; Consent</string>
+    <string name="privacy_settings_title">Privacy Settings</string>
+    <string name="consent_required_title">Consent Required</string>
+    <string name="consent_required_message">To use this app, we need your consent for local video processing. Your videos will never leave your device.</string>
+    <string name="grant_consent">Grant Consent</string>
+    <string name="decline_consent">Exit App</string>
+    <string name="revoke_consent">Revoke Consent</string>
+    <string name="consent_granted">Consent Granted</string>
+    <string name="consent_revoked">Consent Revoked</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_overview_title">Privacy Overview</string>
+    <string name="data_usage_title">Data Usage</string>
+    <string name="local_processing_only">🔒 Local Processing Only</string>
+    <string name="no_cloud_storage">☁️ No Cloud Storage</string>
+    <string name="no_data_sharing">🚫 No Data Sharing</string>
+    <string name="no_training_data">🎯 Not Used for Training</string>
+    <string name="auto_cleanup">🗑️ Auto File Cleanup</string>
+
+    <!-- Privacy Actions -->
+    <string name="view_privacy_policy">View Privacy Policy</string>
+    <string name="export_my_data">Export My Data</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="revoke_video_consent">Revoke Video Processing Consent</string>
+
+    <!-- Privacy Messages -->
+    <string name="video_processing_consent_text">I understand that my videos will be processed locally on this device and will not be uploaded to any servers</string>
+    <string name="privacy_policy_consent_text">I agree to the privacy policy and data handling practices described above</string>
+    <string name="consent_required_checkbox">This consent is required to use the app</string>
+    <string name="privacy_policy_required_checkbox">Please agree to the privacy policy</string>
+
+    <!-- Privacy Status -->
+    <string name="consent_status_granted">✅ Granted</string>
+    <string name="consent_status_not_granted">❌ Not Granted</string>
+    <string name="privacy_policy_accepted">✅ Accepted</string>
+    <string name="privacy_policy_not_accepted">❌ Not Accepted</string>
+    <string name="consent_date_format">Consent given on: %1$s</string>
+
+    <!-- Privacy Errors -->
+    <string name="consent_required_error">Video processing consent is required to use this feature</string>
+    <string name="privacy_policy_required_error">Please accept the privacy policy to continue</string>
+    <string name="no_consent_processing_error">Cannot process videos without user consent</string>
+
+    <!-- Common -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="share">Share</string>
+    <string name="export">Export</string>
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="more_info">More Info</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Status -->
+    <string name="status_uploaded">Uploaded</string>
+    <string name="status_preprocessing">Preprocessing</string>
+    <string name="status_processing">Processing</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_error">Error</string>
+
+    <!-- Accessibility -->
+    <string name="cd_upload_icon">Upload icon</string>
+    <string name="cd_video_thumbnail">Video thumbnail</string>
+    <string name="cd_process_button">Process video</string>
+    <string name="cd_export_button">Export result</string>
+    <string name="cd_privacy_icon">Privacy icon</string>
+    <string name="cd_consent_checkbox">Consent checkbox</string>
+
+    <!-- F3Set specific strings -->
+    <string name="f3set_model_name">F3Set Action Recognition</string>
+    <string name="f3set_loading">Loading F3Set model…</string>
+    <string name="f3set_processing">Analyzing video with F3Set…</string>
+    <string name="shot_detected_at">Shot at %1$.1fs</string>
+    <string name="action_label_confidence">%1$s (%2$d%%)</string>
+    <string name="shots_detected">%1$d shots detected</string>
+    <string name="top_actions">Top actions:</string>
+
+    <!-- Privacy Processing Messages -->
+    <string name="processing_locally">Processing locally on your device…</string>
+    <string name="no_data_uploaded">No data is being uploaded</string>
+    <string name="cleaning_temp_files">Cleaning temporary files…</string>
+    <string name="securing_results">Securing analysis results…</string>
+
+    <!-- File Management -->
+    <string name="temp_files_cleaned">Temporary files cleaned</string>
+    <string name="video_file_deleted">Original video file deleted</string>
+    <string name="results_stored_locally">Results stored locally only</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage_title">Storage Permission Required</string>
+    <string name="permission_storage_message">AI Video Analyzer needs storage permission to access your videos and save analysis results locally. Your videos are processed on-device and never uploaded.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="permission_required_error">Storage permission is required to process videos</string>
+</resources>

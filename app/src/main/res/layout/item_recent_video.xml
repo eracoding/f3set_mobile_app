@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Video Icon -->
+        <ImageView
+            android:id="@+id/video_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="Video icon"
+            android:src="@drawable/ic_video"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="?attr/colorPrimary" />
+
+        <!-- Video Info -->
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/status_icon"
+            app:layout_constraintStart_toEndOf="@+id/video_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="tennis_match_2024.mp4" />
+
+        <TextView
+            android:id="@+id/upload_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:layout_constraintEnd_toStartOf="@+id/status_icon"
+            app:layout_constraintStart_toEndOf="@+id/video_icon"
+            app:layout_constraintTop_toBottomOf="@+id/video_name"
+            tools:text="Uploaded Dec 12, 15:45" />
+
+        <TextView
+            android:id="@+id/video_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:layout_constraintEnd_toStartOf="@+id/status_icon"
+            app:layout_constraintStart_toEndOf="@+id/video_icon"
+            app:layout_constraintTop_toBottomOf="@+id/upload_date"
+            tools:text="25.4 MB" />
+
+        <!-- Status Section -->
+        <ImageView
+            android:id="@+id/status_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="Status icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_check"
+            tools:tint="@color/video_completed" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status_icon"
+            tools:text="Complete"
+            tools:textColor="@color/video_completed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

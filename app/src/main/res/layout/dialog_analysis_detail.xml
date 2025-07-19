@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="600dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Info -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="?attr/colorPrimaryContainer"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/detail_video_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                    android:textColor="?attr/colorOnPrimaryContainer"
+                    tools:text="🎾 tennis_match_final.mp4" />
+
+                <TextView
+                    android:id="@+id/detail_timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textColor="?attr/colorOnPrimaryContainer"
+                    tools:text="📅 Analysis completed: Dec 12, 2024 15:45" />
+
+                <TextView
+                    android:id="@+id/detail_confidence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnPrimaryContainer"
+                    android:textStyle="bold"
+                    tools:text="🎯 Overall Confidence: 92.5%" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Summary Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📄 Analysis Summary"
+            android:textAppearance="?attr/textAppearanceLabelLarge"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/detail_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                tools:text="F3Set analysis detected 15 tennis shots across 240 frames with high confidence. Primary actions include serves, forehands, and backhands." />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Statistics Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📊 Statistics"
+            android:textAppearance="?attr/textAppearanceLabelLarge"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/detail_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="16dp"
+                android:textAppearance="?attr/textAppearanceBodySmall"
+                tools:text="📊 Analysis Statistics:\n• Frames analyzed: 240\n• Total detections: 15\n• Unique actions: 5\n• Average confidence: 87.3%" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Frame Details Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎬 Frame-by-Frame Details"
+            android:textAppearance="?attr/textAppearanceLabelLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="Scroll through detected tennis actions"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/frames_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="?attr/colorSurfaceVariant"
+            android:padding="8dp"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_frame_detail" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

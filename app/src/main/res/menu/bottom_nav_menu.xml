@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/uploadFragment"
+        android:icon="@drawable/ic_upload"
+        android:title="Upload" />
+
+    <item
+        android:id="@+id/processingFragment"
+        android:icon="@drawable/ic_processing"
+        android:title="Processing" />
+
+    <item
+        android:id="@+id/resultsFragment"
+        android:icon="@drawable/ic_results"
+        android:title="Results" />
+
+    <item
+        android:id="@+id/privacyFragment"
+        android:icon="@drawable/ic_privacy"
+        android:title="@string/nav_privacy" />
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- External Storage -->
+    <external-path
+        name="external_files"
+        path="." />
+
+    <!-- External Files Directory -->
+    <external-files-path
+        name="external_app_files"
+        path="." />
+
+    <!-- Cache Directory -->
+    <cache-path
+        name="cache_files"
+        path="." />
+
+    <!-- Internal Files Directory -->
+    <files-path
+        name="internal_files"
+        path="." />
+
+    <!-- Specific paths for exports -->
+    <external-files-path
+        name="exports"
+        path="exports/" />
+
+    <!-- Specific paths for temporary video files -->
+    <cache-path
+        name="temp_videos"
+        path="videos/" />
+</paths>

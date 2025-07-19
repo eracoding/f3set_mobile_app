@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/uploadFragment">
+
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.example.aivideoanalyzer.presentation.ui.upload.UploadFragment"
+        android:label="@string/nav_upload"
+        tools:layout="@layout/fragment_upload">
+        <action
+            android:id="@+id/action_uploadFragment_to_processingFragment"
+            app:destination="@id/processingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/processingFragment"
+        android:name="com.example.aivideoanalyzer.presentation.ui.processing.ProcessingFragment"
+        android:label="@string/nav_processing"
+        tools:layout="@layout/fragment_processing">
+        <action
+            android:id="@+id/action_processingFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.aivideoanalyzer.presentation.ui.results.ResultsFragment"
+        android:label="@string/nav_results"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.example.aivideoanalyzer.presentation.privacy.PrivacySettingsFragment"
+        android:label="@string/nav_privacy"
+        tools:layout="@layout/fragment_privacy_settings" />
+
+</navigation>
