@@ -70,7 +70,7 @@ The F3Set model recognizes 29 distinct tennis actions across multiple categories
 4. **View Results**: Explore detected tennis actions with timestamps and confidence scores
 5. **Export**: Save results as HTML reports, CSV data, or JSON for further analysis
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -352,6 +352,6 @@ A: MP4, MOV, AVI, and MKV formats up to 500MB. 1080p resolution recommended for 
 ---
 
 <div align="center">
-  <p><strong>🎾 Serve up better tennis analysis with F3Set! 🎾</strong></p>
+  <p><strong>Serve up better tennis analysis with F3Set!</strong></p>
   <p>Made with ❤️ for the tennis community</p>
 </div>
