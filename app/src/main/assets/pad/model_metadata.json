@@ -1,0 +1,54 @@
+{
+  "model_info": {
+    "dataset": "f3set-tennis",
+    "num_classes": 29,
+    "classes": {
+      "near": 1,
+      "far": 2,
+      "deuce": 3,
+      "middle": 4,
+      "ad": 5,
+      "serve": 6,
+      "return": 7,
+      "stroke": 8,
+      "fh": 9,
+      "bh": 10,
+      "gs": 11,
+      "slice": 12,
+      "volley": 13,
+      "smash": 14,
+      "drop": 15,
+      "lob": 16,
+      "T": 17,
+      "B": 18,
+      "W": 19,
+      "CC": 20,
+      "DL": 21,
+      "DM": 22,
+      "II": 23,
+      "IO": 24,
+      "approach": 25,
+      "in": 26,
+      "winner": 27,
+      "forced-err": 28,
+      "unforced-err": 29
+    },
+    "feature_arch": "rny002_tsm",
+    "temporal_arch": "gru",
+    "epoch": 49,
+    "use_ctx": true
+  },
+  "input_config": {
+    "clip_len": 96,
+    "crop_dim": 224,
+    "stride": 2,
+    "window": 5,
+    "max_seq_len": 20
+  },
+  "mobile_config": {
+    "optimized": false,
+    "quantized": false,
+    "batch_size": 1
+  },
+  "version": "2.0"
+}
