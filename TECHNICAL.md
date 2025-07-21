@@ -112,21 +112,6 @@ Output:
 ### Key Implementation Details
 
 #### 1. Frame Processing Pipeline (`F3SetVideoProcessor.kt`)
-
-```kotlin
-/**
- * FIXED F3Set Video Processor - Critical Issues Resolved
- *
- * Key fixes:
- * 1. DEFAULT_CLIP_LENGTH = 96 (matches Python training)
- * 2. Progress callback 0-1 range (not 0-100)
- * 3. Proper bitmap recycling in all cases
- * 4. Zero-padding consistency with Python
- * 5. Simplified vote accumulation
- * 6. Performance optimizations
- */
-```
-
 **Critical Parameters**:
 - `DEFAULT_CLIP_LENGTH = 96`: Matches Python training parameters exactly
 - `SLIDING_WINDOW_STRIDE = 48`: Optimized for mobile performance
