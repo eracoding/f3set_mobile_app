@@ -24,12 +24,6 @@ Develop a privacy-first Android application that performs real-time tennis actio
 - ✅ **Privacy Compliance**: GDPR-compliant data handling
 - ✅ **Mobile Optimization**: Efficient memory and battery usage
 
-### Key Metrics Achieved
-- **Model Accuracy**: 92.5% on F3Set test dataset
-- **Inference Speed**: ~45ms per 96-frame clip (Snapdragon 8 Gen 2)
-- **Memory Efficiency**: ~200MB peak usage during processing
-- **Model Size**: 45MB (optimized for mobile deployment)
-
 ---
 
 ## Architecture Deep Dive
