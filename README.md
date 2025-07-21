@@ -308,7 +308,7 @@ The app includes built-in model validation:
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! Please see our [TECHNICAL Guide](TECHNICAL.md) for details.
 
 ### Areas for Contribution
 - **Sport-Specific Features**: Additional tennis metrics and analytics
