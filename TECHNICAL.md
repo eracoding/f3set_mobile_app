@@ -127,12 +127,6 @@ Output:
 
 #### 2. Inference Engine (`F3SetInferenceManager.kt`)
 
-```kotlin
-/**
- * RELAXED F3Set Model Inference Manager with Lower Thresholds and Better Debugging
- */
-```
-
 **Detection Thresholds** (Optimized for Mobile):
 ```kotlin
 private const val STRONG_THRESHOLD = 0.2f     // Lowered from 0.3f
