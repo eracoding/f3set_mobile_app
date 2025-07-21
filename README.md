@@ -345,7 +345,7 @@ A: Currently optimized for tennis. The F3Set model is specifically trained on te
 A: Yes! After initial installation, the app works completely offline. No internet required for video analysis.
 
 **Q: What video formats are supported?**
-A: MP4, MOV, AVI, and MKV formats up to 500MB. 1080p resolution recommended for best results.
+A: MP4, MOV, AVI, and MKV formats. 1080p resolution recommended for best results.
 
 ---
 
