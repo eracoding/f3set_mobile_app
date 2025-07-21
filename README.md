@@ -322,11 +322,9 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
+I want to thank professor [Jiang Kan](https://scholar.google.com/citations?user=onCF7hQAAAAJ&hl=en) and [Zhaoyu Liu](https://scholar.google.com/citations?user=oAl6cMIAAAAJ&hl) for their help and support. Without them, this work would not be possible.
 
-- **F3Set Research**: Based on the F3Set tennis action recognition dataset and methodology
-- **PyTorch Mobile**: For providing excellent on-device ML capabilities
-- **Material Design**: For comprehensive design system and components
-- **Tennis Community**: For feedback and testing during development
+Check out [F3Set source page](https://github.com/F3Set/F3Set)
 
 ## Support
 
