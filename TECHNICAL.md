@@ -366,7 +366,6 @@ val handInfo = HandInfo(farHand = RIGHT, nearHand = RIGHT)
 **Issue**: Some older ARM architectures not fully supported
 **Impact**: App crashes on devices with ARM32 or older chipsets
 **Current Status**: Requires minimum Android 8.0 with ARM64
-**Mitigation**: Clear system requirements and graceful fallbacks
 
 #### Challenge: Memory Constraints
 **Issue**: Inference requires significant RAM for larger models
