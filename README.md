@@ -336,7 +336,7 @@ Check out [F3Set source page](https://github.com/F3Set/F3Set)
 ### FAQ
 
 **Q: Why does processing take so long?**
-A: F3Set analysis is computationally intensive. Processing time depends on video length and device performance. A 1-minute video typically takes 30-60 seconds on modern devices.
+A: F3Set analysis is computationally intensive. Processing time depends on video length and device performance.
 
 **Q: Can I use this for other sports?**
 A: Currently optimized for tennis. The F3Set model is specifically trained on tennis actions, but the architecture could be adapted for other sports.
